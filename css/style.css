@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,600,700');
+@import url(https://fonts.google.com/specimen/EB+Garamond?query=EB+gara&sidebar.open&selection.family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500);
+:root {
+	--yellow:#F5B700;
+	--black:#252627;
+}
+#top {
+	background-image: url("../img/Fondo1.png");
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: 100%;
+	padding-bottom: 150px;
+	padding-top: 25px;
+	text-align: center;
+	z-index: 999;
+}
+
+#top .logo{
+	padding: 25px 50px;
+	width: 75%;
+	margin-bottom: 25px;
+}
+#top h2{
+	color: #fff;
+	font-size: 20px;
+	font-weight: 200;
+	text-align: center;
+	padding-top: 5px;
+}
+#top img{
+	padding-top: 20px;
+	text-align: center;
+}
+.btn-default {
+	background-color: #F5B700;
+	border-radius: 50px;
+	color: #252627;
+	font-size: 35px;
+	font-weight: 700;
+	transition: all 0.3s ease;
+	padding-left: 75px;
+	padding-right: 75px;
+	padding-bottom: 10px;
+}
+.btn-default:hover{
+	transform: translateY(-20px);
+	transition: all 0.3s ease;
+	z-index: 999;
+	background-color: var(--yellow);
+	color:#fff !important;
+}
+
+#desktop {
+	padding-top: 150px;
+	padding-bottom: 60px;
+}
+
+#desktop h2{
+	font-weight: 700;
+	font-size: 25px;
+	color: var(--black);
+	text-align: center;
+}
+
+#desktop p{
+	text-align-last: center;
+	color: var(--black);
+	font-weight: 200;
+}
+#desktop ul{
+	list-style: none;
+	padding-top: 15px;
+}
+#desktop li{
+	padding-bottom: 15px;
+	font-weight: 600;
+}
+#desktop li::before{
+	content: '\f111';
+	font-family: 'Font Awesome 5 Free';
+	font-weight: 700;
+	font-size: 12px;
+	color: var(--yellow);
+	padding-right: 25px;
+}
+#prices {
+	margin-top: 100px;
+	text-align: center;
+	padding: 10px;
+	padding-bottom: 150px;
+}
+#prices h5{
+	font-size: 25px;
+	font-weight: 800;
+	text-align: center;
+	margin-bottom: 50px;
+	
+}
+#prices .prices{
+	border: solid 1px var(--black);
+	margin-top: 20px;
+}
+#prices .prices h1{
+	text-align: center;
+	font-size: 15px;
+	margin: 20px 20px 10px;
+	font-weight: 800;
+}
+#prices .prices h2 span{
+	color: var(--yellow);
+	font-weight: 700;
+}
+#prices .prices h2{
+	color: var(--yellow);
+	font-size: 50px;
+	font-weight: 700;
+}
+#prices .prices p{
+	margin-bottom: 60px;
+}
+#prices .prices .btn-default{
+	background-color: #fff;
+	border: solid 1px var(--yellow);
+	transition: all 0.3s ease;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 10px;
+}
+
+#prices .prices .btn-default:hover{
+	transform: translateY(-20px);
+	transition: all 0.3s ease;
+	z-index: 999;
+	background-color: var(--yellow);
+	color:#fff !important;
+}
+#prices .prices2{
+	background-color: var(--black);
+	border: 2px solid #fff;
+}
+#prices .prices2 h1{
+	color: #fff;
+	text-align: center;
+	font-size: 15px;
+	margin: 20px 20px 10px;
+	font-weight: 800;
+}
+#prices .prices2 h2 span{
+	color: var(--yellow);
+	font-weight: 700;
+}
+#prices .prices2 h2{
+	color: var(--yellow);
+	font-size: 50px;
+	font-weight: 700;
+}
+#prices .prices2 p{
+	margin-bottom: 60px;
+	color: #fff;
+}
+#prices .prices2 {
+	margin-bottom: 20px;
+}
+
+#prices .prices2 .btn-default {
+	background-color: #F5B700;
+	border-radius: 50px;
+	color: #252627;
+	font-size: 35px;
+	font-weight: 700;
+	transition: all 0.3s ease;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 10px;
+}
+
+#prices .prices2 .btn-default:hover{
+	transform: translateY(-20px);
+	transition: all 0.3s ease;
+	z-index: 999;
+	background-color: #fff;
+	color:var(--black) !important;
+	border: 1px solid var(--yellow)
+}
+
+.prices2 {
+	margin-left: 0px;
+}
+
+#signup {
+	padding-top: 250px;
+	padding-bottom: 60px;
+	text-align: center;
+	background-image: url("../img/Fondo2.png");
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 100%;
+	margin-top: 100px;
+}
+#signup h3 {
+	color: #fff;
+	font-weight: 600;
+}
+#signup p {
+	color: #fff;
+	padding-bottom: 15px;
+}
+#signup h4 {
+	color: #fff;
+	font-size: 15px;
+}
+#signup a {
+	color: var(--yellow) !important;
+	text-decoration: none;
+}
+
+#signup .btn {
+	margin-bottom: 15px;
+	margin-top: 30px;
+}
+
+#signup .btn-default:hover{
+	transform: none;
+	transition: all 0.3s ease;
+	z-index: 999;
+	background-color: var(--yellow);
+	color:#fff !important;
+}
+
+#signup .mc-field-group {
+	padding-bottom: 15px;
+	width: 40%;
+	margin-left: 330px;
+}
+
+footer {
+	background-color: #252627;
+	padding-bottom: 25px;
+}
+
+footer a {
+	font-size: 20px;
+	color: var(--yellow) !important;
+	text-decoration: none;
+	font-weight: 300;
+}
+
+
+
+
+
+@media (max-width:480px){
+	#top {
+	background-image: url("../img/Asset 6-8.png");
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: 400%;
+	padding-bottom: 150px;
+	text-align: center;
+}
+	#prices .prices2 {
+	margin-bottom: 0px !important;
+}
+	#prices .prices{
+	border: solid 1px var(--black);
+	margin-top: 0px !important;
+}
+}
